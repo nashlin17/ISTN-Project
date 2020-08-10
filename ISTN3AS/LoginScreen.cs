@@ -27,10 +27,42 @@ namespace ISTN3AS
 
         private void btnStaffSign_Click(object sender, EventArgs e)
         {
-            salesControl sc = new salesControl();
-            this.Hide();
-            sc.ShowDialog();
-            this.Close();
+            try
+            {
+                this.checkLoginTableAdapter.CheckLoginDetails(this.LoginDS.CheckLogin, tbxUsername_Login.Text, tbxPassword_Login.Text);
+                int t = this.LoginDS.CheckLogin.Rows.Count;
+                Object h = this.LoginDS.CheckLogin.Rows[0][1];
+                if(this.LoginDS.CheckLogin.Rows[0][0].ToString().ToUpper() == tbxUsername_Login.Text.ToUpper() && this.LoginDS.CheckLogin.Rows[0][1].ToString() == tbxPassword_Login.Text)
+                {
+                    salesControl sc = new salesControl();
+                    this.Hide();
+                    sc.ShowDialog();
+                    this.Close();
+                }
+                else {
+                    MessageBox.Show("Incorrect Password");
+                }
+
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show("Incorrect Login Details");
+            }
+
+
+            //
+            
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkLoginDetailsToolStripButton_Click(object sender, EventArgs e)
+        {
+            
+
         }
     }
 }
