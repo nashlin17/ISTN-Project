@@ -24,16 +24,3 @@ C:\Users\Nashlin Moodly\Desktop\ISTN Point Of Sales\ISTN-Project\ISTN3AS\obj\Deb
 C:\Users\Nashlin Moodly\Desktop\ISTN Point Of Sales\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.csproj.GenerateResource.cache
 C:\Users\Nashlin Moodly\Desktop\ISTN Point Of Sales\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.exe
 C:\Users\Nashlin Moodly\Desktop\ISTN Point Of Sales\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.pdb
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\bin\Debug\ISTN3AS.exe.config
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\bin\Debug\ISTN3AS.exe
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\bin\Debug\ISTN3AS.pdb
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.csprojAssemblyReference.cache
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.mainMenu.resources
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.LoginScreen.resources
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.payment.resources
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.Properties.Resources.resources
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.salesControl.resources
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.csproj.GenerateResource.cache
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.csproj.CoreCompileInputs.cache
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.exe
-C:\Users\Ashli\Documents\Work\ISTN 3AS Project\ISTN-Project\ISTN3AS\obj\Debug\ISTN3AS.pdb
