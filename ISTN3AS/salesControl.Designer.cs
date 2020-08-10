@@ -189,11 +189,6 @@
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label42 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.richItemsPurchased = new System.Windows.Forms.RichTextBox();
@@ -232,6 +227,11 @@
             this.btnSearch2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.memberAcc.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.panel14.SuspendLayout();
@@ -272,7 +272,6 @@
             this.returnItem.SuspendLayout();
             this.groupBox11.SuspendLayout();
             this.groupBox9.SuspendLayout();
-            this.panel7.SuspendLayout();
             this.pnlCompany.SuspendLayout();
             this.pnlOptions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxusr)).BeginInit();
@@ -286,6 +285,7 @@
             this.panel1.SuspendLayout();
             this.gbItemsScroll.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // memberAcc
@@ -2239,55 +2239,6 @@
             this.groupBox9.TabIndex = 0;
             this.groupBox9.TabStop = false;
             // 
-            // panel7
-            // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.button3);
-            this.panel7.Controls.Add(this.label11);
-            this.panel7.Controls.Add(this.textBox3);
-            this.panel7.Location = new System.Drawing.Point(27, 97);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(482, 39);
-            this.panel7.TabIndex = 14;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.BackgroundImage = global::ISTN3AS.Properties.Resources.search__1_;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(421, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(44, 31);
-            this.button3.TabIndex = 10;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // label11
-            // 
-            this.label11.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(3, 5);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(161, 32);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "Search Order No: ";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(170, 4);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(245, 31);
-            this.textBox3.TabIndex = 11;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(16, 142);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(508, 372);
-            this.richTextBox1.TabIndex = 13;
-            this.richTextBox1.Text = "Order No.";
-            // 
             // label42
             // 
             this.label42.BackColor = System.Drawing.Color.White;
@@ -2826,6 +2777,55 @@
             this.textBox2.Size = new System.Drawing.Size(245, 31);
             this.textBox2.TabIndex = 11;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(16, 142);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(508, 372);
+            this.richTextBox1.TabIndex = 13;
+            this.richTextBox1.Text = "Order No.";
+            // 
+            // panel7
+            // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.button3);
+            this.panel7.Controls.Add(this.label11);
+            this.panel7.Controls.Add(this.textBox3);
+            this.panel7.Location = new System.Drawing.Point(27, 97);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(482, 39);
+            this.panel7.TabIndex = 14;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.BackgroundImage = global::ISTN3AS.Properties.Resources.search__1_;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(421, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(44, 31);
+            this.button3.TabIndex = 10;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(3, 5);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(161, 32);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "Search Order No: ";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(170, 4);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(245, 31);
+            this.textBox3.TabIndex = 11;
+            // 
             // salesControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2891,8 +2891,6 @@
             this.groupBox11.PerformLayout();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.pnlCompany.ResumeLayout(false);
             this.pnlOptions.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbxusr)).EndInit();
@@ -2907,6 +2905,8 @@
             this.gbItemsScroll.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
